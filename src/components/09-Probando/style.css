@@ -1,0 +1,23 @@
+body{
+    padding: 50px;
+    background-color: darkseagreen;
+}
+.dis{
+    display: flex;
+    justify-content:space-between;
+    align-items:center ;
+}
+p{
+  color: brown; 
+  font-size: 1.5rem;   
+  font-weight: 700;
+  font-style: italic;
+  cursor: pointer;
+}
+.marcado{
+  text-decoration: line-through;
+}
+.desmarcado{
+  text-decoration: none;
+  color: blue;
+}
