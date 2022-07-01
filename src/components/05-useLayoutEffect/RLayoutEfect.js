@@ -7,8 +7,8 @@ export const RLayoutEfect = () => {
 
     const {counter, increment}  =   useCounter(1); 
     const {data} = useFetch(`https://rickandmortyapi.com/api/episode/${counter}`);
-    //esto significa q si data no es null entonces desectructure el valor de data.
-    
+
+    //esto significa q si data no es null entonces desectructure el valor de data.    
    const {name} = !!data && data;
    const [witd, setWitd] = useState({});
 
